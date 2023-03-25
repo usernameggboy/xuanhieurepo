@@ -1,0 +1,70 @@
+#divboss {
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    height: 75vh;
+    background-color: #99CCFF;
+    margin: 0 10%;
+}
+
+#divboss input {
+    height: 40px;
+    margin-bottom: 15%;
+    width: 100%;
+    border: 2px solid #4d4c45;
+}
+
+#main {
+    width: 40%;
+
+
+}
+
+#divboss h1 {
+    text-align: center;
+    font-size: 25px;
+}
+
+#extra {
+
+    width: 40%;
+
+}
+
+#flexadmin {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin-left: 20%;
+    max-width: 300px;
+
+}
+
+#flexextra {
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+    margin-left: 20%;
+
+}
+
+#btn {
+    width: 9%;
+    height: 60px;
+    position: absolute;
+    top: 78%;
+    background: transparent;
+    color: black;
+    font-size: large;
+    cursor: grab;
+}
+
+#btn:hover {
+    background-color: orange;
+    color: white;
+
+}
+
+label {
+    font-size: 20px;
+}
